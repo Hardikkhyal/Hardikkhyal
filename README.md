@@ -1,5 +1,17 @@
-# 💫 About Me:
-🔭 I’m currently working on web projects <br>👯 I’m looking to collaborate on web designing <br>🤝 I’m looking for help with my project <br>🌱 I’m currently learning ai automation <br>💬 Ask me about<br>⚡ Fun fact
+# Hey there, I’m Hardik Khyal
+
+💻 CSE Diploma Student | 🎨 Graphic Designer | 🌐 Web Developer | 🎵 music producer
+
+🚀 I love turning ideas into reality — whether that’s through code, design, or music.
+🔍 Always exploring new tech, mastering creative tools, and crafting meaningful digital experiences.
+
+Things I enjoy building:
+
+💼 Portfolio websites that tell a story
+
+🛍️ E-commerce stores with a personal touch
+
+🎨 Digital illustrations with emotion & detail
 
 
 ## 🌐 Socials:
