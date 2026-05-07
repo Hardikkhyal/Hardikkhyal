@@ -5,14 +5,6 @@
 🚀 I love turning ideas into reality — whether that’s through code, design, or music.
 🔍 Always exploring new tech, mastering creative tools, and crafting meaningful digital experiences.
 
-Things I enjoy building:
-
-💼 Portfolio websites that tell a story
-
-🛍️ E-commerce stores with a personal touch
-
-🎨 Digital illustrations with emotion & detail
-
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)]( https://www.facebook.com/share/1EBUUpGYCx/ ) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Anime_art_fusion) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hardik-khyal-a038a7276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/Anime_art_fusion) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Hardikkhyal) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:khyalhardik@gmail.com) 
