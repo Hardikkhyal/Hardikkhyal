@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 230" width="800">
+  <rect width="800" height="230" fill="#0d1117"/>
+  <!-- Left Panel -->
+  <rect x="0" y="0" width="388" height="230" rx="10" fill="#141419" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="22" y="38" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="800" fill="#f0f6fc">Academic Focus</text>
+  <line x1="22" y1="52" x2="366" y2="52" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="22" y="80" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b949e">• Program: CSE Diploma Student</text>
+  <text x="22" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b949e">• Skill Focus: Web development architectures &amp; databases</text>
+  <text x="22" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b949e">• Creative Focus: Graphic Design &amp; Digital layouts</text>
+  <text x="22" y="164" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b949e">• Auditory Focus: Electronic Music Production &amp; Composition</text>
+  <!-- Right Panel -->
+  <rect x="412" y="0" width="388" height="230" rx="10" fill="#141419" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="434" y="38" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="800" fill="#f0f6fc">Explorer Log</text>
+  <line x1="434" y1="52" x2="778" y2="52" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="434" y="80" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b949e">• Automating workflows using Google Cloud Services</text>
+  <text x="434" y="108" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b949e">• Creative tooling with Adobe Photoshop &amp; After Effects</text>
+  <text x="434" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b949e">• Frontend prototyping via Figma, Canva &amp; Framer</text>
+  <text x="434" y="164" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b949e">• Synthesizing tracks using DAW software</text>
+</svg>

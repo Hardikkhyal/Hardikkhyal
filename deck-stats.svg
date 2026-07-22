@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" width="800">
+  <rect width="800" height="370" fill="#0d1117"/>
+  <!-- Section Title -->
+  <text x="0" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#f0f6fc" letter-spacing="-0.5">Design &amp; Development Deck</text>
+  <text x="0" y="54" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b949e">The technologies and creative tools that power every product I build.</text>
+  <line x1="0" y1="68" x2="800" y2="68" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- Row 1: 3 stat cards -->
+  <!-- Card 1: TOTAL TOOLS -->
+  <rect x="0" y="78" width="252" height="120" rx="16" fill="#12121c" stroke="#28283a" stroke-width="1"/>
+  <text x="16" y="106" font-family="monospace" font-size="10" font-weight="700" fill="#8b949e" letter-spacing="1">TOTAL TOOLS</text>
+  <text x="16" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f6fc">18 Tools</text>
+  <text x="16" y="158" font-family="monospace" font-size="11" font-weight="700" fill="#a855f7">Used Daily</text>
+
+  <!-- Card 2: PROJECTS BUILT -->
+  <rect x="274" y="78" width="252" height="120" rx="16" fill="#12121c" stroke="#28283a" stroke-width="1"/>
+  <text x="290" y="106" font-family="monospace" font-size="10" font-weight="700" fill="#8b949e" letter-spacing="1">PROJECTS BUILT</text>
+  <text x="290" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f6fc">40+ Projects</text>
+  <text x="290" y="158" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6">Completed</text>
+
+  <!-- Card 3: EXPERIENCE -->
+  <rect x="548" y="78" width="252" height="120" rx="16" fill="#12121c" stroke="#28283a" stroke-width="1"/>
+  <text x="564" y="106" font-family="monospace" font-size="10" font-weight="700" fill="#8b949e" letter-spacing="1">EXPERIENCE</text>
+  <text x="564" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f6fc">3+ Years</text>
+  <text x="564" y="158" font-family="monospace" font-size="11" font-weight="700" fill="#ec4899">Hands-on Building</text>
+
+  <!-- Row 2: 3 stat cards -->
+  <!-- Card 4: DEPLOYMENTS -->
+  <rect x="0" y="218" width="252" height="120" rx="16" fill="#12121c" stroke="#28283a" stroke-width="1"/>
+  <text x="16" y="246" font-family="monospace" font-size="10" font-weight="700" fill="#8b949e" letter-spacing="1">DEPLOYMENTS</text>
+  <text x="16" y="276" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f6fc">100+ Count</text>
+  <text x="16" y="298" font-family="monospace" font-size="11" font-weight="700" fill="#a855f7">Production Ready</text>
+
+  <!-- Card 5: FAVORITE STACK -->
+  <rect x="274" y="218" width="252" height="120" rx="16" fill="#12121c" stroke="#28283a" stroke-width="1"/>
+  <text x="290" y="246" font-family="monospace" font-size="10" font-weight="700" fill="#8b949e" letter-spacing="1">FAVORITE STACK</text>
+  <text x="290" y="276" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="800" fill="#f0f6fc">React + Node</text>
+  <text x="290" y="298" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6">Docker &amp; Cloud</text>
+
+  <!-- Card 6: CURRENT FOCUS -->
+  <rect x="548" y="218" width="252" height="120" rx="16" fill="#12121c" stroke="#28283a" stroke-width="1"/>
+  <text x="564" y="246" font-family="monospace" font-size="10" font-weight="700" fill="#8b949e" letter-spacing="1">CURRENT FOCUS</text>
+  <text x="564" y="276" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="800" fill="#f0f6fc">System Design</text>
+  <text x="564" y="298" font-family="monospace" font-size="11" font-weight="700" fill="#ec4899">&amp; Cloud Arch</text>
+</svg>

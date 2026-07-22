@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800">
+  <rect width="800" height="380" fill="#0d1117"/>
+
+  <!-- Section Title -->
+  <text x="400" y="34" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#f0f6fc" text-anchor="middle" letter-spacing="-0.5">Curated Projects</text>
+
+  <!-- ── Card 1: OmniOCR Offline ── -->
+  <rect x="0" y="54" width="254" height="320" rx="12" fill="#141419" stroke="#2a2a2a" stroke-width="1"/>
+  <!-- Title -->
+  <text x="127" y="102" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">OmniOCR Offline</text>
+  <!-- Divider -->
+  <line x1="16" y1="114" x2="238" y2="114" stroke="#2a2a2a" stroke-width="1"/>
+  <!-- Bullets -->
+  <text x="16" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• 100% offline on-device OCR via ML Kit</text>
+  <text x="16" y="164" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• Scan history stored locally via Hive DB</text>
+  <text x="16" y="188" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• Offline TTS, editor &amp; clipboard copy</text>
+  <text x="16" y="212" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• Premium dark glassmorphism UI</text>
+  <!-- Tech stack -->
+  <text x="127" y="252" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">Flutter • ML Kit • Hive DB • Riverpod</text>
+  <!-- Divider -->
+  <line x1="16" y1="264" x2="238" y2="264" stroke="#2a2a2a" stroke-width="1"/>
+  <!-- Source Code -->
+  <text x="127" y="294" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#bf55ec" text-anchor="middle">Source Code</text>
+  <!-- Underline effect -->
+  <line x1="87" y1="297" x2="167" y2="297" stroke="#bf55ec" stroke-width="1"/>
+
+  <!-- ── Card 2: HK Drop ── -->
+  <rect x="273" y="54" width="254" height="320" rx="12" fill="#141419" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="400" y="102" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">HK Drop</text>
+  <line x1="289" y1="114" x2="511" y2="114" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="289" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• Offline cross-device file &amp; clipboard share</text>
+  <text x="289" y="164" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• Zero cloud, zero accounts — LAN only</text>
+  <text x="289" y="188" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• Ed25519 pairing + AES-256-GCM encrypt</text>
+  <text x="289" y="212" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• CI/CD: APK, AAB &amp; Windows builds</text>
+  <text x="400" y="252" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">Flutter • mDNS • AES-256 • GitHub Actions</text>
+  <line x1="289" y1="264" x2="511" y2="264" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="400" y="294" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#bf55ec" text-anchor="middle">Source Code</text>
+  <line x1="360" y1="297" x2="440" y2="297" stroke="#bf55ec" stroke-width="1"/>
+
+  <!-- ── Card 3: AI Background Remover ── -->
+  <rect x="546" y="54" width="254" height="320" rx="12" fill="#141419" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="673" y="102" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">AI Background Remover</text>
+  <line x1="562" y1="114" x2="784" y2="114" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="562" y="140" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• Runs 100% in browser — no uploads</text>
+  <text x="562" y="164" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• No watermarks, unlimited &amp; free forever</text>
+  <text x="562" y="188" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• WebGL-accelerated TensorFlow.js</text>
+  <text x="562" y="212" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• One-click transparent PNG export</text>
+  <text x="673" y="252" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">JS • TensorFlow.js • MediaPipe • Canvas</text>
+  <line x1="562" y1="264" x2="784" y2="264" stroke="#2a2a2a" stroke-width="1"/>
+  <text x="673" y="294" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#bf55ec" text-anchor="middle">Source Code</text>
+  <line x1="633" y1="297" x2="713" y2="297" stroke="#bf55ec" stroke-width="1"/>
+</svg>
