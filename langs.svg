@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0d" />
+      <stop offset="100%" stop-color="#0d0d11" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    text {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      fill: #ffffff;
+    }
+    .header {
+      font-size: 18px;
+      font-weight: bold;
+      fill: #00f0ff;
+    }
+    .lang-name {
+      font-size: 14px;
+      fill: #ffffff;
+      font-weight: 600;
+    }
+    .lang-val {
+      font-size: 13px;
+      fill: #8b949e;
+    }
+    
+    /* Animation for expanding language bars */
+    .bar-grow {
+      transform-origin: left;
+      animation: grow 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    }
+
+    @keyframes grow {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+  ]]></style>
+
+  <rect width="485" height="200" rx="16" fill="url(#card-bg)" stroke="#2a2a2a" stroke-width="1.5" filter="url(#shadow)" />
+
+  <text x="25" y="35" class="header">Top Languages</text>
+
+  <g transform="translate(25, 60)">
+    <!-- JavaScript -->
+    <g>
+      <text x="0" y="15" class="lang-name">JavaScript</text>
+      <text x="400" y="15" class="lang-val" text-anchor="end">48.2%</text>
+      <rect x="0" y="22" width="400" height="8" rx="4" fill="#141419" />
+      <rect x="0" y="22" width="192.8" height="8" rx="4" fill="#f1e05a" class="bar-grow" />
+    </g>
+
+    <!-- TypeScript -->
+    <g transform="translate(0, 42)">
+      <text x="0" y="15" class="lang-name">TypeScript</text>
+      <text x="400" y="15" class="lang-val" text-anchor="end">28.5%</text>
+      <rect x="0" y="22" width="400" height="8" rx="4" fill="#141419" />
+      <rect x="0" y="22" width="114" height="8" rx="4" fill="#3178c6" class="bar-grow" style="animation-delay: 0.2s;" />
+    </g>
+
+    <!-- Dockerfile (DevOps) -->
+    <g transform="translate(0, 84)">
+      <text x="0" y="15" class="lang-name">Dockerfile &amp; Shell</text>
+      <text x="400" y="15" class="lang-val" text-anchor="end">23.3%</text>
+      <rect x="0" y="22" width="400" height="8" rx="4" fill="#141419" />
+      <rect x="0" y="22" width="93.2" height="8" rx="4" fill="#3893e8" class="bar-grow" style="animation-delay: 0.4s;" />
+    </g>
+  </g>
+</svg>

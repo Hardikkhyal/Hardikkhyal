@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0d" />
+      <stop offset="100%" stop-color="#0d0d11" />
+    </linearGradient>
+    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a85" />
+      <stop offset="100%" stop-color="#00f0ff" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <style><![CDATA[
+    text {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+      fill: #ffffff;
+    }
+    .header {
+      font-size: 18px;
+      font-weight: bold;
+      fill: #ff2a85;
+    }
+    .stat-label {
+      font-size: 14px;
+      fill: #8b949e;
+    }
+    .stat-val {
+      font-size: 14px;
+      font-weight: bold;
+      fill: #ffffff;
+    }
+    .rank-text {
+      font-size: 28px;
+      font-weight: 900;
+      fill: #00f0ff;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+    
+    /* Sliding and scaling rows animation */
+    .stat-row {
+      opacity: 0;
+      animation: slideIn 0.8s ease-out forwards;
+    }
+    
+    @keyframes slideIn {
+      from { transform: translateX(-20px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    /* Rank circle stroke animation */
+    .rank-circle-fill {
+      stroke-dasharray: 220;
+      stroke-dashoffset: 220;
+      animation: fillCircle 2s ease-out forwards;
+    }
+
+    @keyframes fillCircle {
+      to { stroke-dashoffset: 45; }
+    }
+  ]]></style>
+
+  <rect width="485" height="200" rx="16" fill="url(#card-bg)" stroke="#2a2a2a" stroke-width="1.5" filter="url(#shadow)" />
+
+  <text x="25" y="35" class="header">GitHub Stats</text>
+
+  <!-- Left: Stats rows -->
+  <g transform="translate(25, 60)">
+    <!-- Commits -->
+    <g class="stat-row" style="animation-delay: 0.2s;">
+      <text x="0" y="15" class="stat-label">Total Commits:</text>
+      <text x="220" y="15" class="stat-val" text-anchor="end">1,248</text>
+      <line x1="0" y1="25" x2="220" y2="25" stroke="#2a2a2a" stroke-width="1" />
+    </g>
+    <!-- PRs -->
+    <g class="stat-row" style="animation-delay: 0.4s;">
+      <text x="0" y="50" class="stat-label">Pull Requests:</text>
+      <text x="220" y="50" class="stat-val" text-anchor="end">87</text>
+      <line x1="0" y1="60" x2="220" y2="60" stroke="#2a2a2a" stroke-width="1" />
+    </g>
+    <!-- Issues -->
+    <g class="stat-row" style="animation-delay: 0.6s;">
+      <text x="0" y="85" class="stat-label">Issues Closed:</text>
+      <text x="220" y="85" class="stat-val" text-anchor="end">42</text>
+      <line x1="0" y1="95" x2="220" y2="95" stroke="#2a2a2a" stroke-width="1" />
+    </g>
+    <!-- Stars -->
+    <g class="stat-row" style="animation-delay: 0.8s;">
+      <text x="0" y="120" class="stat-label">Total Stars:</text>
+      <text x="220" y="120" class="stat-val" text-anchor="end">312</text>
+    </g>
+  </g>
+
+  <!-- Right: Rank Indicator -->
+  <g transform="translate(370, 110)">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#141419" stroke-width="8" />
+    <circle cx="0" cy="0" r="40" fill="none" stroke="url(#ring-grad)" stroke-width="8" 
+            stroke-linecap="round" class="rank-circle-fill" transform="rotate(-90)" />
+    <text x="0" y="0" class="rank-text">A+</text>
+    <text x="0" y="60" font-size="12" fill="#8b949e" text-anchor="middle" font-weight="bold">RANK</text>
+  </g>
+</svg>
