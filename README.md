@@ -69,12 +69,14 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
 </tr>
 </table>
 
-<hr id="about" style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
+<a id="about-me"></a><a id="about"></a>
+<hr style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
 
 <!-- SECTION 3: ABOUT DETAIL PANELS -->
 <img src="about-section.svg" width="100%" alt="Academic Focus and Explorer Log"/>
 
-<hr id="skills" style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
+<a id="skills"></a>
+<hr style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
 
 <!-- SECTION 4: DEVELOPER TOOLKIT DASHBOARD -->
 <img src="deck-stats.svg" width="100%" alt="Design and Development Deck Stats"/>
@@ -158,7 +160,8 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
 </tr>
 </table>
 
-<hr id="projects" style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
+<a id="projects"></a>
+<hr style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
 
 <!-- SECTION 5: PROJECTS SHOWCASE CARDS -->
 <img src="projects-section.svg" width="100%" alt="Curated Projects"/>
@@ -169,7 +172,8 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
 </p>
 
 
-<hr id="metrics" style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
+<a id="metrics"></a>
+<hr style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
 
 <!-- SECTION 6: METRICS DASHBOARD PANEL -->
 <h3 style="color: #f0f6fc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-size: 24px; font-weight: 800; margin: 0 0 6px 0; letter-spacing: -0.5px; text-align: left;">Metrics &amp; Live Contributions</h3>
@@ -206,7 +210,8 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" style="width: 100%; max-width: 600px;">
 </div>
 
-<hr id="contact" style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
+<a id="contact"></a>
+<hr style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
 
 <!-- SECTION 8: CONNECT & FOOTER -->
 <h3 style="color: #f0f6fc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-size: 24px; font-weight: 800; margin: 0 0 6px 0; letter-spacing: -0.5px; text-align: left;">Let's Collaborate</h3>
