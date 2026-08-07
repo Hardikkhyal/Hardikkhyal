@@ -166,11 +166,50 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
 <!-- SECTION 5: PROJECTS SHOWCASE CARDS -->
 <img src="projects-section.svg" width="100%" alt="Curated Projects"/>
 <!-- PINNED-REPOS:START -->
-<p align="center" style="font-family: monospace; font-size: 13px;">
-  <a href="https://github.com/Hardikkhyal/hardik-ocr-system"><b>OmniOCR Offline Source Code</b></a> &nbsp;•&nbsp; 
-  <a href="https://github.com/Hardikkhyal/link-tree"><b>HK Drop Source Code</b></a> &nbsp;•&nbsp; 
-  <a href="https://github.com/Hardikkhyal/free-background-remover"><b>AI Background Remover Source Code</b></a>
-</p>
+<div align="center">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; margin-top: 15px;">
+<tr>
+  <td width="50%" valign="top" style="border: none; padding: 6px;">
+    <div style="background-color: #141419; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; text-align: left;">
+      <a href="https://github.com/Hardikkhyal/free-background-remover" target="_blank" style="color: #bf55ec; font-size: 15px; font-weight: 700; text-decoration: none; font-family: monospace;">📦 free-background-remover</a>
+      <p style="color: #8b949e; font-size: 12.5px; margin: 8px 0; line-height: 1.4; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Free, unlimited, privacy-first AI background remover that runs entirely in your browser. No uploads, no watermarks, no login required.</p>
+      <div style="font-family: monospace; font-size: 11px; color: #8b949e;">
+        <span style="color: #f1e05a;">● JavaScript</span> &nbsp;&nbsp;<span>⭐ 1</span> &nbsp;&nbsp;<span>🍴 0</span>
+      </div>
+    </div>
+  </td>
+  <td width="50%" valign="top" style="border: none; padding: 6px;">
+    <div style="background-color: #141419; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; text-align: left;">
+      <a href="https://github.com/Hardikkhyal/hr-studios" target="_blank" style="color: #bf55ec; font-size: 15px; font-weight: 700; text-decoration: none; font-family: monospace;">📦 hr-studios</a>
+      <p style="color: #8b949e; font-size: 12.5px; margin: 8px 0; line-height: 1.4; font-family: -apple-system, BlinkMacSystemFont, sans-serif;"> A premium, responsive, and modern E-Commerce Web Application built with Django, customized for musical instrument sales. Featuring a modern dark glassmorphism user interface with responsive layout grids, smooth hover animations, and intuitive cart management. </p>
+      <div style="font-family: monospace; font-size: 11px; color: #8b949e;">
+        <span style="color: #e34c26;">● HTML</span> &nbsp;&nbsp;<span>⭐ 1</span> &nbsp;&nbsp;<span>🍴 0</span>
+      </div>
+    </div>
+  </td>
+</tr>
+<tr>
+  <td width="50%" valign="top" style="border: none; padding: 6px;">
+    <div style="background-color: #141419; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; text-align: left;">
+      <a href="https://github.com/Hardikkhyal/link-tree" target="_blank" style="color: #bf55ec; font-size: 15px; font-weight: 700; text-decoration: none; font-family: monospace;">📦 link-tree</a>
+      <p style="color: #8b949e; font-size: 12.5px; margin: 8px 0; line-height: 1.4; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">cross-device sharing application designed to provide seamless file and text transfers between mobile devices (Android / iOS) and laptops (Windows / macOS / Linux) </p>
+      <div style="font-family: monospace; font-size: 11px; color: #8b949e;">
+        <span style="color: #00B4AB;">● Dart</span> &nbsp;&nbsp;<span>⭐ 1</span> &nbsp;&nbsp;<span>🍴 0</span>
+      </div>
+    </div>
+  </td>
+  <td width="50%" valign="top" style="border: none; padding: 6px;">
+    <div style="background-color: #141419; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; text-align: left;">
+      <a href="https://github.com/Hardikkhyal/hardik-ocr-system" target="_blank" style="color: #bf55ec; font-size: 15px; font-weight: 700; text-decoration: none; font-family: monospace;">📦 hardik-ocr-system</a>
+      <p style="color: #8b949e; font-size: 12.5px; margin: 8px 0; line-height: 1.4; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">offline Text Recognition (OCR) on-device. The app prioritizes privacy and performance while providing a stunning, dark-themed user experience.</p>
+      <div style="font-family: monospace; font-size: 11px; color: #8b949e;">
+        <span style="color: #00B4AB;">● Dart</span> &nbsp;&nbsp;<span>⭐ 1</span> &nbsp;&nbsp;<span>🍴 0</span>
+      </div>
+    </div>
+  </td>
+</tr>
+</table>
+</div>
 <!-- PINNED-REPOS:END -->
 
 
