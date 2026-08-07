@@ -15,26 +15,26 @@
   <!-- Card 2: PROJECTS BUILT -->
   <rect x="274" y="78" width="252" height="120" rx="16" fill="#12121c" stroke="#28283a" stroke-width="1"/>
   <text x="290" y="106" font-family="monospace" font-size="10" font-weight="700" fill="#8b949e" letter-spacing="1">PROJECTS BUILT</text>
-  <text x="290" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f6fc">40+ Projects</text>
+  <text x="290" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f6fc">15+ Projects</text>
   <text x="290" y="158" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6">Completed</text>
 
   <!-- Card 3: EXPERIENCE -->
   <rect x="548" y="78" width="252" height="120" rx="16" fill="#12121c" stroke="#28283a" stroke-width="1"/>
   <text x="564" y="106" font-family="monospace" font-size="10" font-weight="700" fill="#8b949e" letter-spacing="1">EXPERIENCE</text>
-  <text x="564" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f6fc">3+ Years</text>
+  <text x="564" y="136" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f6fc">1.5+ Years</text>
   <text x="564" y="158" font-family="monospace" font-size="11" font-weight="700" fill="#ec4899">Hands-on Building</text>
 
   <!-- Row 2: 3 stat cards -->
   <!-- Card 4: DEPLOYMENTS -->
   <rect x="0" y="218" width="252" height="120" rx="16" fill="#12121c" stroke="#28283a" stroke-width="1"/>
   <text x="16" y="246" font-family="monospace" font-size="10" font-weight="700" fill="#8b949e" letter-spacing="1">DEPLOYMENTS</text>
-  <text x="16" y="276" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f6fc">100+ Count</text>
+  <text x="16" y="276" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="800" fill="#f0f6fc">10+ Count</text>
   <text x="16" y="298" font-family="monospace" font-size="11" font-weight="700" fill="#a855f7">Production Ready</text>
 
   <!-- Card 5: FAVORITE STACK -->
   <rect x="274" y="218" width="252" height="120" rx="16" fill="#12121c" stroke="#28283a" stroke-width="1"/>
   <text x="290" y="246" font-family="monospace" font-size="10" font-weight="700" fill="#8b949e" letter-spacing="1">FAVORITE STACK</text>
-  <text x="290" y="276" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="800" fill="#f0f6fc">React + Node</text>
+  <text x="290" y="276" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="800" fill="#f0f6fc">React + Node + TypeScript</text>
   <text x="290" y="298" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6">Docker &amp; Cloud</text>
 
   <!-- Card 6: CURRENT FOCUS -->
