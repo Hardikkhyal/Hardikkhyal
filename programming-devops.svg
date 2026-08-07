@@ -6,12 +6,12 @@
     </linearGradient>
   </defs>
   <!-- Card background -->
-  <rect width="800" height="480" rx="24" fill="#10101a" stroke="#28283c" stroke-width="1"/>
+  <rect width="800" height="480" rx="24" fill="#0d0d11" stroke="#28283c" stroke-width="1"/>
 
   <!-- Header -->
-  <text x="22" y="48" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#a855f7" letter-spacing="-0.5">PROGRAMMING &amp; DEVOPS</text>
-  <rect x="636" y="26" width="140" height="28" rx="12" fill="#1a1a2e" stroke="#a855f7" stroke-width="1"/>
-  <text x="706" y="44" font-family="monospace" font-size="11" font-weight="700" fill="#a855f7" text-anchor="middle">8 TECHS</text>
+  <text x="22" y="48" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#f0f6fc" letter-spacing="-0.5">PROGRAMMING &amp; DEVOPS</text>
+  <rect x="636" y="26" width="140" height="28" rx="12" fill="#1e1e2e" stroke="#28283a" stroke-width="1"/>
+  <text x="706" y="44" font-family="monospace" font-size="11" font-weight="700" fill="#f0f6fc" text-anchor="middle">8 TECHS</text>
   <line x1="22" y1="68" x2="778" y2="68" stroke="#222236" stroke-width="1"/>
 
   <!-- Row 1 Tech Cards: Docker, Node.js, React, Python -->
@@ -91,10 +91,10 @@
   <text x="689" y="279" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">Automated cloud setup.</text>
 
   <!-- Info Box -->
-  <rect x="14" y="328" width="772" height="136" rx="18" fill="#171726" stroke="#33334d" stroke-width="1"/>
-  <text x="30" y="356" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#a855f7">Why these technologies?</text>
+  <rect x="14" y="328" width="772" height="136" rx="18" fill="#161622" stroke="#28283a" stroke-width="1"/>
+  <text x="30" y="356" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Why these technologies?</text>
   <text x="30" y="380" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" fill="#8b949e">I focus on scalable, production-ready technologies that are widely adopted in modern software</text>
   <text x="30" y="400" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" fill="#8b949e">engineering. Each tool in this stack is used daily and chosen based on real-world performance,</text>
   <text x="30" y="420" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" fill="#8b949e">community support, and how well it integrates with the rest of the ecosystem.</text>
-  <text x="30" y="448" font-family="monospace" font-size="11" fill="#a855f7">Primary: Node.js + React    Secondary: Python + Docker    Infrastructure: Kubernetes + Terraform</text>
+  <text x="30" y="448" font-family="monospace" font-size="11" fill="#f0f6fc">Primary: Node.js + React    Secondary: Python + Docker    Infrastructure: Kubernetes + Terraform</text>
 </svg>

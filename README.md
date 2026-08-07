@@ -59,11 +59,10 @@ Building scalable web applications, crafting compelling visual identities, and e
 Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source while continuously expanding my skills across software engineering and digital media.
 </p>
 <div>
-<a href="https://instagram.com/hardikkhyal" target="_blank"><img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=instagram&logoColor=white" height="28" alt="Instagram"></a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/hardikkhyal" target="_blank"><img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=LinkedIn&logoColor=white" height="28" alt="LinkedIn"></a>&nbsp;&nbsp;
-<a href="https://pinterest.com/Anime_art_fusion" target="_blank"><img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=pinterest&logoColor=white" height="28" alt="Pinterest"></a>&nbsp;&nbsp;
-<a href="https://x.com/Hardikkhyal" target="_blank"><img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=x&logoColor=white" height="28" alt="X"></a>&nbsp;&nbsp;
-<a href="mailto:khyalhardik@gmail.com"><img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=gmail&logoColor=white" height="28" alt="Email"></a>
+<a href="https://instagram.com/hardikkhyal" target="_blank"><img src="https://img.shields.io/badge/Instagram-0d0d11?style=flat-square&logo=instagram&logoColor=white" height="28" alt="Instagram"></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/hardikkhyal" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0d0d11?style=flat-square&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"></a>&nbsp;&nbsp;
+<a href="https://pinterest.com/Anime_art_fusion" target="_blank"><img src="https://img.shields.io/badge/Pinterest-0d0d11?style=flat-square&logo=pinterest&logoColor=white" height="28" alt="Pinterest"></a>&nbsp;&nbsp;
+<a href="mailto:khyalhardik@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d0d11?style=flat-square&logo=gmail&logoColor=white" height="28" alt="Email"></a>
 </div>
 </td>
 </tr>
@@ -81,57 +80,18 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
 <!-- SECTION 5: PROJECTS SHOWCASE CARDS -->
 <img src="projects-section.svg" width="100%" alt="Curated Projects"/>
 <!-- PINNED-REPOS:START -->
-<div align="center">
-<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; margin-top: 15px;">
-<tr>
-  <td width="50%" valign="top" style="border: none; padding: 6px;">
-    <div style="background-color: #141419; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; text-align: left;">
-      <a href="https://github.com/Hardikkhyal/free-background-remover" target="_blank" style="color: #bf55ec; font-size: 15px; font-weight: 700; text-decoration: none; font-family: monospace;">📦 free-background-remover</a>
-      <p style="color: #8b949e; font-size: 12.5px; margin: 8px 0; line-height: 1.4; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Free, unlimited, privacy-first AI background remover that runs entirely in your browser. No uploads, no watermarks, no login required.</p>
-      <div style="font-family: monospace; font-size: 11px; color: #8b949e;">
-        <span style="color: #f1e05a;">● JavaScript</span> &nbsp;&nbsp;<span>⭐ 1</span> &nbsp;&nbsp;<span>🍴 0</span>
-      </div>
-    </div>
-  </td>
-  <td width="50%" valign="top" style="border: none; padding: 6px;">
-    <div style="background-color: #141419; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; text-align: left;">
-      <a href="https://github.com/Hardikkhyal/hr-studios" target="_blank" style="color: #bf55ec; font-size: 15px; font-weight: 700; text-decoration: none; font-family: monospace;">📦 hr-studios</a>
-      <p style="color: #8b949e; font-size: 12.5px; margin: 8px 0; line-height: 1.4; font-family: -apple-system, BlinkMacSystemFont, sans-serif;"> A premium, responsive, and modern E-Commerce Web Application built with Django, customized for musical instrument sales. Featuring a modern dark glassmorphism user interface with responsive layout grids, smooth hover animations, and intuitive cart management. </p>
-      <div style="font-family: monospace; font-size: 11px; color: #8b949e;">
-        <span style="color: #e34c26;">● HTML</span> &nbsp;&nbsp;<span>⭐ 1</span> &nbsp;&nbsp;<span>🍴 0</span>
-      </div>
-    </div>
-  </td>
-</tr>
-<tr>
-  <td width="50%" valign="top" style="border: none; padding: 6px;">
-    <div style="background-color: #141419; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; text-align: left;">
-      <a href="https://github.com/Hardikkhyal/link-tree" target="_blank" style="color: #bf55ec; font-size: 15px; font-weight: 700; text-decoration: none; font-family: monospace;">📦 link-tree</a>
-      <p style="color: #8b949e; font-size: 12.5px; margin: 8px 0; line-height: 1.4; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">cross-device sharing application designed to provide seamless file and text transfers between mobile devices (Android / iOS) and laptops (Windows / macOS / Linux) </p>
-      <div style="font-family: monospace; font-size: 11px; color: #8b949e;">
-        <span style="color: #00B4AB;">● Dart</span> &nbsp;&nbsp;<span>⭐ 1</span> &nbsp;&nbsp;<span>🍴 0</span>
-      </div>
-    </div>
-  </td>
-  <td width="50%" valign="top" style="border: none; padding: 6px;">
-    <div style="background-color: #141419; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; text-align: left;">
-      <a href="https://github.com/Hardikkhyal/hardik-ocr-system" target="_blank" style="color: #bf55ec; font-size: 15px; font-weight: 700; text-decoration: none; font-family: monospace;">📦 hardik-ocr-system</a>
-      <p style="color: #8b949e; font-size: 12.5px; margin: 8px 0; line-height: 1.4; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">offline Text Recognition (OCR) on-device. The app prioritizes privacy and performance while providing a stunning, dark-themed user experience.</p>
-      <div style="font-family: monospace; font-size: 11px; color: #8b949e;">
-        <span style="color: #00B4AB;">● Dart</span> &nbsp;&nbsp;<span>⭐ 1</span> &nbsp;&nbsp;<span>🍴 0</span>
-      </div>
-    </div>
-  </td>
-</tr>
-</table>
-</div>
+<p align="center" style="font-family: monospace; font-size: 13px;">
+  <a href="https://github.com/Hardikkhyal/free-background-remover"><b>free-background-remover Source Code</b></a> &nbsp;•&nbsp; 
+  <a href="https://github.com/Hardikkhyal/hr-studios"><b>hr-studios Source Code</b></a> &nbsp;•&nbsp; 
+  <a href="https://github.com/Hardikkhyal/link-tree"><b>link-tree Source Code</b></a>
+</p>
 <!-- PINNED-REPOS:END -->
 
 <a id="skills"></a>
 <hr style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
 
-<!-- SECTION 4: DEVELOPER TOOLKIT DASHBOARD -->
-<img src="deck-stats.svg" width="100%" alt="Design and Development Deck Stats"/>
+<!-- SECTION 4: DEVELOPER TOOLKIT DASHBOARD 
+<img src="deck-stats.svg" width="100%" alt="Design and Development Deck Stats"/>-->
 
 <!-- stats table legacy removed -->
 
@@ -265,11 +225,10 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
 <tr>
 <!-- Badges -->
 <td style="border: none; text-align: left;">
-<a href="https://instagram.com/hardikkhyal" target="_blank"><img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=instagram&logoColor=white" height="28" alt="Instagram"></a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/hardikkhyal" target="_blank"><img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=LinkedIn&logoColor=white" height="28" alt="LinkedIn"></a>&nbsp;&nbsp;
-<a href="https://pinterest.com/Anime_art_fusion" target="_blank"><img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=pinterest&logoColor=white" height="28" alt="Pinterest"></a>&nbsp;&nbsp;
-<a href="https://x.com/Hardikkhyal" target="_blank"><img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=x&logoColor=white" height="28" alt="X"></a>&nbsp;&nbsp;
-<a href="mailto:khyalhardik@gmail.com"><img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=gmail&logoColor=white" height="28" alt="Email"></a>
+<a href="https://instagram.com/hardikkhyal" target="_blank"><img src="https://img.shields.io/badge/Instagram-0d0d11?style=flat-square&logo=instagram&logoColor=white" height="28" alt="Instagram"></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/hardikkhyal" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0d0d11?style=flat-square&logo=linkedin&logoColor=white" height="28" alt="LinkedIn"></a>&nbsp;&nbsp;
+<a href="https://pinterest.com/Anime_art_fusion" target="_blank"><img src="https://img.shields.io/badge/Pinterest-0d0d11?style=flat-square&logo=pinterest&logoColor=white" height="28" alt="Pinterest"></a>&nbsp;&nbsp;
+<a href="mailto:khyalhardik@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d0d11?style=flat-square&logo=gmail&logoColor=white" height="28" alt="Email"></a>
 </td>
 <!-- Visitor Count Badge -->
 <td align="right" style="border: none;">

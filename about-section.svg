@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 230" width="800">
-  <rect width="800" height="230" fill="#0d1117"/>
+  <rect width="800" height="230" fill="#0d0d11"/>
   <!-- Left Panel -->
   <rect x="0" y="0" width="388" height="230" rx="10" fill="#141419" stroke="#2a2a2a" stroke-width="1"/>
   <text x="22" y="38" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="800" fill="#f0f6fc">Academic Focus</text>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" width="800">
-  <rect width="800" height="370" fill="#0d1117"/>
+  <rect width="800" height="370" fill="#0d0d11"/>
   <!-- Section Title -->
   <text x="0" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#f0f6fc" letter-spacing="-0.5">Design &amp; Development Deck</text>
   <text x="0" y="54" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#8b949e">The technologies and creative tools that power every product I build.</text>

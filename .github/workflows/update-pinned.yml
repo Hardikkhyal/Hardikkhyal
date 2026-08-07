@@ -66,7 +66,7 @@ jobs:
             const query = `
               query($username: String!) {
                 user(login: $username) {
-                  pinnedItems(first: 6, types: REPOSITORY) {
+                  pinnedItems(first: 3, types: REPOSITORY) {
                     nodes {
                       ... on Repository {
                         name
@@ -87,7 +87,8 @@ jobs:
 
             try {
               const response = await github.graphql(query, { username: 'Hardikkhyal' });
-              const repos = response.user.pinnedItems.nodes;
+              let repos = response.user.pinnedItems.nodes;
+              if (repos) repos = repos.slice(0, 3);
 
               if (!repos || repos.length === 0) {
                 console.log('No pinned repositories found.');
@@ -96,7 +97,7 @@ jobs:
 
               // 1. Generate projects-section.svg matching the exact card design
               const cardWidth = 254;
-              const cardHeight = 290;
+              const cardHeight = 230;
               const colGap = 19;
               const rowGap = 20;
 
@@ -104,7 +105,7 @@ jobs:
               const svgHeight = 54 + (totalRows * cardHeight) + ((totalRows - 1) * rowGap) + 20;
 
               let svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 ${svgHeight}" width="800">\n`;
-              svg += `  <rect width="800" height="${svgHeight}" fill="#0d1117"/>\n\n`;
+              svg += `  <rect width="800" height="${svgHeight}" fill="#0d0d11"/>\n\n`;
               svg += `  <!-- Section Title -->\n`;
               svg += `  <text x="400" y="34" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#f0f6fc" text-anchor="middle" letter-spacing="-0.5">Curated Projects</text>\n\n`;
 
@@ -133,10 +134,7 @@ jobs:
                   svg += `  <text x="${cardX + 16}" y="${lineY}" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">${escapeXml(line)}</text>\n`;
                 });
 
-                svg += `  <text x="${centerX}" y="${cardY + 195}" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">${lang} • ⭐ ${stars} • 🍴 ${forks}</text>\n`;
-                svg += `  <line x1="${cardX + 16}" y1="${cardY + 207}" x2="${cardX + 238}" y2="${cardY + 207}" stroke="#2a2a2a" stroke-width="1"/>\n`;
-                svg += `  <text x="${centerX}" y="${cardY + 238}" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#bf55ec" text-anchor="middle">Source Code</text>\n`;
-                svg += `  <line x1="${centerX - 40}" y1="${cardY + 241}" x2="${centerX + 40}" y2="${cardY + 241}" stroke="#bf55ec" stroke-width="1"/>\n\n`;
+                svg += `  <text x="${centerX}" y="${cardY + 195}" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">${lang} • ⭐ ${stars} • 🍴 ${forks}</text>\n\n`;
               }
 
               svg += `</svg>\n`;
