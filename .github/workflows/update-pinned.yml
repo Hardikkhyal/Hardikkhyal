@@ -21,12 +21,47 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Fetch Pinned Repos and Update README
+      - name: Fetch Pinned Repos and Generate SVG + Update README
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
+
+            function escapeXml(str) {
+              if (!str) return '';
+              return str.replace(/[<>&"']/g, (c) => {
+                switch (c) {
+                  case '<': return '&lt;';
+                  case '>': return '&gt;';
+                  case '&': return '&amp;';
+                  case '"': return '&quot;';
+                  case "'": return '&apos;';
+                  default: return c;
+                }
+              });
+            }
+
+            function wrapText(text, maxChars = 34, maxLines = 4) {
+              if (!text) return ['• Open source project on GitHub'];
+              const words = text.split(/\s+/);
+              const lines = [];
+              let current = '';
+
+              for (const word of words) {
+                if ((current + ' ' + word).trim().length <= maxChars) {
+                  current = (current + ' ' + word).trim();
+                } else {
+                  if (current) lines.push(current);
+                  current = word;
+                  if (lines.length === maxLines - 1) break;
+                }
+              }
+              if (current && lines.length < maxLines) {
+                lines.push(current);
+              }
+              return lines.map(l => '• ' + l);
+            }
 
             const query = `
               query($username: String!) {
@@ -59,60 +94,80 @@ jobs:
                 return;
               }
 
-              let html = '\n<div align="center">\n<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; margin-top: 15px;">\n';
+              // 1. Generate projects-section.svg matching the exact card design
+              const cardWidth = 254;
+              const cardHeight = 290;
+              const colGap = 19;
+              const rowGap = 20;
 
-              for (let i = 0; i < repos.length; i += 2) {
-                html += '<tr>\n';
-                for (let j = i; j < i + 2; j++) {
-                  if (j < repos.length) {
-                    const repo = repos[j];
-                    const desc = repo.description || 'No description provided.';
-                    const lang = repo.primaryLanguage ? repo.primaryLanguage.name : 'Code';
-                    const langColor = repo.primaryLanguage ? repo.primaryLanguage.color : '#3b82f6';
-                    const stars = repo.stargazerCount;
-                    const forks = repo.forkCount;
+              const totalRows = Math.ceil(repos.length / 3);
+              const svgHeight = 54 + (totalRows * cardHeight) + ((totalRows - 1) * rowGap) + 20;
 
-                    html += `  <td width="50%" valign="top" style="border: none; padding: 6px;">\n`;
-                    html += `    <div style="background-color: #141419; border: 1px solid #2a2a2a; border-radius: 12px; padding: 16px; text-align: left;">\n`;
-                    html += `      <a href="${repo.url}" target="_blank" style="color: #bf55ec; font-size: 15px; font-weight: 700; text-decoration: none; font-family: monospace;">📦 ${repo.name}</a>\n`;
-                    html += `      <p style="color: #8b949e; font-size: 12.5px; margin: 8px 0; line-height: 1.4; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">${desc}</p>\n`;
-                    html += `      <div style="font-family: monospace; font-size: 11px; color: #8b949e;">\n`;
-                    html += `        <span style="color: ${langColor};">● ${lang}</span> &nbsp;&nbsp;`;
-                    html += `<span>⭐ ${stars}</span> &nbsp;&nbsp;`;
-                    html += `<span>🍴 ${forks}</span>\n`;
-                    html += `      </div>\n`;
-                    html += `    </div>\n`;
-                    html += `  </td>\n`;
-                  } else {
-                    html += `  <td width="50%" style="border: none;"></td>\n`;
-                  }
-                }
-                html += '</tr>\n';
+              let svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 ${svgHeight}" width="800">\n`;
+              svg += `  <rect width="800" height="${svgHeight}" fill="#0d1117"/>\n\n`;
+              svg += `  <!-- Section Title -->\n`;
+              svg += `  <text x="400" y="34" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#f0f6fc" text-anchor="middle" letter-spacing="-0.5">Curated Projects</text>\n\n`;
+
+              for (let i = 0; i < repos.length; i++) {
+                const repo = repos[i];
+                const row = Math.floor(i / 3);
+                const col = i % 3;
+
+                const cardX = col * (cardWidth + colGap);
+                const cardY = 54 + row * (cardHeight + rowGap);
+                const centerX = cardX + (cardWidth / 2);
+
+                const name = escapeXml(repo.name);
+                const descLines = wrapText(repo.description, 33, 4);
+                const lang = repo.primaryLanguage ? escapeXml(repo.primaryLanguage.name) : 'Code';
+                const stars = repo.stargazerCount;
+                const forks = repo.forkCount;
+
+                svg += `  <!-- Card ${i + 1}: ${name} -->\n`;
+                svg += `  <rect x="${cardX}" y="${cardY}" width="${cardWidth}" height="${cardHeight}" rx="12" fill="#141419" stroke="#2a2a2a" stroke-width="1"/>\n`;
+                svg += `  <text x="${centerX}" y="${cardY + 42}" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">${name}</text>\n`;
+                svg += `  <line x1="${cardX + 16}" y1="${cardY + 54}" x2="${cardX + 238}" y2="${cardY + 54}" stroke="#2a2a2a" stroke-width="1"/>\n`;
+
+                descLines.forEach((line, lineIdx) => {
+                  const lineY = cardY + 80 + (lineIdx * 22);
+                  svg += `  <text x="${cardX + 16}" y="${lineY}" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">${escapeXml(line)}</text>\n`;
+                });
+
+                svg += `  <text x="${centerX}" y="${cardY + 195}" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">${lang} • ⭐ ${stars} • 🍴 ${forks}</text>\n`;
+                svg += `  <line x1="${cardX + 16}" y1="${cardY + 207}" x2="${cardX + 238}" y2="${cardY + 207}" stroke="#2a2a2a" stroke-width="1"/>\n`;
+                svg += `  <text x="${centerX}" y="${cardY + 238}" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="700" fill="#bf55ec" text-anchor="middle">Source Code</text>\n`;
+                svg += `  <line x1="${centerX - 40}" y1="${cardY + 241}" x2="${centerX + 40}" y2="${cardY + 241}" stroke="#bf55ec" stroke-width="1"/>\n\n`;
               }
 
-              html += '</table>\n</div>\n';
+              svg += `</svg>\n`;
+
+              fs.writeFileSync('projects-section.svg', svg, 'utf8');
+              console.log('projects-section.svg generated successfully.');
+
+              // 2. Update README.md clickable links section under SVG
+              let linksHtml = '<p align="center" style="font-family: monospace; font-size: 13px;">\n  ';
+              linksHtml += repos.map(r => `<a href="${r.url}"><b>${escapeXml(r.name)} Source Code</b></a>`).join(' &nbsp;•&nbsp; \n  ');
+              linksHtml += '\n</p>';
 
               let readme = fs.readFileSync('README.md', 'utf8');
               const startTag = '<!-- PINNED-REPOS:START -->';
               const endTag = '<!-- PINNED-REPOS:END -->';
 
               const regex = new RegExp(`${startTag}[\\s\\S]*?${endTag}`, 'm');
-              const newContent = `${startTag}${html}${endTag}`;
+              const newContent = `${startTag}\n${linksHtml}\n${endTag}`;
 
               if (regex.test(readme)) {
                 readme = readme.replace(regex, newContent);
                 fs.writeFileSync('README.md', readme, 'utf8');
-                console.log('README.md updated with pinned repos successfully.');
-              } else {
-                console.log('Start and end tags not found in README.md.');
+                console.log('README.md updated with pinned source links.');
               }
             } catch (err) {
-              console.error('Error fetching pinned repos:', err);
+              console.error('Error in script:', err);
             }
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: update pinned repositories showcase" && git push)
+          git add projects-section.svg README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "auto: regenerate projects-section.svg from pinned repos" && git push)
