@@ -81,9 +81,9 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
 <img src="projects-section.svg" width="100%" alt="Curated Projects"/>
 <!-- PINNED-REPOS:START -->
 <p align="center" style="font-family: monospace; font-size: 13px;">
-  <a href="https://github.com/Hardikkhyal/free-background-remover"><b>free-background-remover Source Code</b></a> &nbsp;•&nbsp; 
-  <a href="https://github.com/Hardikkhyal/hr-studios"><b>hr-studios Source Code</b></a> &nbsp;•&nbsp; 
-  <a href="https://github.com/Hardikkhyal/link-tree"><b>link-tree Source Code</b></a>
+  <a href="https://github.com/Hardikkhyal/GraphCore"><b>GraphCore Source Code</b></a> &nbsp;•&nbsp; 
+  <a href="https://github.com/Hardikkhyal/link-tree"><b>link-tree Source Code</b></a> &nbsp;•&nbsp; 
+  <a href="https://github.com/Hardikkhyal/hardik-ocr-system"><b>hardik-ocr-system Source Code</b></a>
 </p>
 <!-- PINNED-REPOS:END -->
 

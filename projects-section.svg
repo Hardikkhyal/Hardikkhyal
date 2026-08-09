@@ -4,34 +4,34 @@
   <!-- Section Title -->
   <text x="400" y="34" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#f0f6fc" text-anchor="middle" letter-spacing="-0.5">Curated Projects</text>
 
-  <!-- Card 1: free-background-remover -->
+  <!-- Card 1: GraphCore -->
   <rect x="0" y="54" width="254" height="230" rx="12" fill="#141419" stroke="#2a2a2a" stroke-width="1"/>
-  <text x="127" y="96" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">free-background-remover</text>
+  <text x="127" y="96" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">GraphCore</text>
   <line x1="16" y1="108" x2="238" y2="108" stroke="#2a2a2a" stroke-width="1"/>
-  <text x="16" y="134" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• Free, unlimited, privacy-first AI</text>
-  <text x="16" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• background remover that runs</text>
-  <text x="16" y="178" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• entirely in your browser. No</text>
-  <text x="16" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• uploads,</text>
-  <text x="127" y="249" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">JavaScript • ⭐ 1 • 🍴 0</text>
+  <text x="16" y="134" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• GraphCore is an offline web tool</text>
+  <text x="16" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• that turns your JavaScript and</text>
+  <text x="16" y="178" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• TypeScript code into an</text>
+  <text x="16" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• interactive</text>
+  <text x="127" y="249" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">TypeScript • ⭐ 1 • 🍴 0</text>
 
-  <!-- Card 2: hr-studios -->
+  <!-- Card 2: link-tree -->
   <rect x="273" y="54" width="254" height="230" rx="12" fill="#141419" stroke="#2a2a2a" stroke-width="1"/>
-  <text x="400" y="96" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">hr-studios</text>
+  <text x="400" y="96" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">link-tree</text>
   <line x1="289" y1="108" x2="511" y2="108" stroke="#2a2a2a" stroke-width="1"/>
-  <text x="289" y="134" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• A premium, responsive, and modern</text>
-  <text x="289" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• E-Commerce Web Application built</text>
-  <text x="289" y="178" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• with Django, customized for</text>
-  <text x="289" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• musical</text>
-  <text x="400" y="249" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">HTML • ⭐ 1 • 🍴 0</text>
+  <text x="289" y="134" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• cross-device sharing application</text>
+  <text x="289" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• designed to provide seamless file</text>
+  <text x="289" y="178" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• and text transfers between mobile</text>
+  <text x="289" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• devices</text>
+  <text x="400" y="249" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">Dart • ⭐ 1 • 🍴 0</text>
 
-  <!-- Card 3: link-tree -->
+  <!-- Card 3: hardik-ocr-system -->
   <rect x="546" y="54" width="254" height="230" rx="12" fill="#141419" stroke="#2a2a2a" stroke-width="1"/>
-  <text x="673" y="96" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">link-tree</text>
+  <text x="673" y="96" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="700" fill="#f0f6fc" text-anchor="middle">hardik-ocr-system</text>
   <line x1="562" y1="108" x2="784" y2="108" stroke="#2a2a2a" stroke-width="1"/>
-  <text x="562" y="134" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• cross-device sharing application</text>
-  <text x="562" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• designed to provide seamless file</text>
-  <text x="562" y="178" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• and text transfers between mobile</text>
-  <text x="562" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• devices</text>
+  <text x="562" y="134" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• offline Text Recognition (OCR)</text>
+  <text x="562" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• on-device. The app prioritizes</text>
+  <text x="562" y="178" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• privacy and performance while</text>
+  <text x="562" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#8b949e">• providing</text>
   <text x="673" y="249" font-family="monospace" font-size="10" fill="#bf55ec" text-anchor="middle">Dart • ⭐ 1 • 🍴 0</text>
 
 </svg>
