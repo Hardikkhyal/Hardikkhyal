@@ -82,7 +82,6 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
 <!-- PINNED-REPOS:START -->
 <p align="center" style="font-family: monospace; font-size: 13px;">
   <a href="https://github.com/Hardikkhyal/GraphCore"><b>GraphCore Source Code</b></a> &nbsp;•&nbsp; 
-  <a href="https://github.com/Hardikkhyal/link-tree"><b>link-tree Source Code</b></a> &nbsp;•&nbsp; 
   <a href="https://github.com/Hardikkhyal/hardik-ocr-system"><b>hardik-ocr-system Source Code</b></a>
 </p>
 <!-- PINNED-REPOS:END -->
