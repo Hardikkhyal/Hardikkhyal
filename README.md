@@ -3,7 +3,6 @@
 <a href="#about-me"><b>About Me</b></a> •
 <a href="#projects"><b>Featured Projects</b></a> •
 <a href="#skills"><b>Skills Deck</b></a> •
-<a href="#metrics"><b>Metrics Dashboard</b></a> •
 <a href="#contact"><b>Contact</b></a>
 </p>
 
@@ -32,7 +31,6 @@
 <a href="#about" style="color: #8b949e; text-decoration: none;">ABOUT</a> &nbsp;•&nbsp;
 <a href="#projects" style="color: #8b949e; text-decoration: none;">PROJECTS</a> &nbsp;•&nbsp;
 <a href="#skills" style="color: #8b949e; text-decoration: none;">SKILLS</a> &nbsp;•&nbsp;
-<a href="#metrics" style="color: #8b949e; text-decoration: none;">STATS</a> &nbsp;•&nbsp;
 <a href="#contact" style="color: #8b949e; text-decoration: none;">CONTACT</a>
 </span>
 </td>
@@ -97,113 +95,6 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
 
 <img src="programming-devops.svg" width="100%" alt="Programming and DevOps Card"/>
 
-<br/>
-
-<img src="design-creative.svg" width="100%" alt="Design and Creative Card"/>
-
-<br/>
-
-<img src="analytics-section.svg" width="100%" alt="Analytics Sparkline Row"/>
-
-<br>
-<h3 style="color: #f0f6fc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-size: 24px; font-weight: 800; margin: 20px 0 6px 0; letter-spacing: -0.5px; text-align: left;">Certifications &amp; Badges</h3>
-<br>
-
-<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none; background: transparent;">
-<!-- GDG Jalandhar -->
-<tr>
-<td valign="top" style="border: none; padding: 12px 0; width: 60px; text-align: left;">
-<a href="https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg" target="_blank">
-<img src="https://developers.google.com/static/profile/badges/community/gdg/chapter/badge.svg" width="40" height="40" alt="GDG Jalandhar">
-</a>
-</td>
-<td valign="top" style="border: none; padding: 12px 0; text-align: left;">
-<span style="color: #f0f6fc; font-size: 14.5px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600;">GDG Jalandhar</span><br>
-<span style="color: #8b949e; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.4;">Google Developer Groups community chapter member and active contributor.</span>
-</td>
-</tr>
-<!-- Gemini Enterprise Agent Ready -->
-<tr>
-<td valign="top" style="border: none; padding: 12px 0; width: 60px; text-align: left;">
-<a href="https://developers.google.com/static/profile/badges/community/gear/badge.svg" target="_blank">
-<img src="https://developers.google.com/static/profile/badges/community/gear/badge.svg" width="40" height="40" alt="Gemini Enterprise Agent Ready">
-</a>
-</td>
-<td valign="top" style="border: none; padding: 12px 0; text-align: left;">
-<span style="color: #f0f6fc; font-size: 14.5px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600;">Gemini Enterprise Agent Ready</span><br>
-<span style="color: #8b949e; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.4;">Level up your agent building skills with GEAR. Go from prototyping with Gemini to deploying secure, enterprise-grade agents on Vertex AI with hands-on training and guidance from Google experts. (Earned May 19, 2026)</span>
-</td>
-</tr>
-<!-- Google Cloud Innovator -->
-<tr>
-<td valign="top" style="border: none; padding: 12px 0; width: 60px; text-align: left;">
-<a href="https://developers.google.com/static/profile/badges/community/innovators/cloud/2021_member/badge.svg" target="_blank">
-<img src="https://developers.google.com/static/profile/badges/community/innovators/cloud/2021_member/badge.svg" width="40" height="40" alt="Google Cloud Innovator">
-</a>
-</td>
-<td valign="top" style="border: none; padding: 12px 0; text-align: left;">
-<span style="color: #f0f6fc; font-size: 14.5px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600;">Google Cloud Innovator</span><br>
-<span style="color: #8b949e; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.4;">Member of the Google Cloud Innovators community, exploring advanced cloud architectures and tools.</span>
-</td>
-</tr>
-<!-- Databricks Academy -->
-<tr>
-<td valign="top" style="border: none; padding: 12px 0; width: 60px; text-align: left;">
-<a href="https://credentials.databricks.com/b9b38f7e-4a0d-497f-ba8b-da15c7ee02f6#acc.TNPBfuCA" target="_blank">
-<img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=databricks&logoColor=white" height="28" alt="Databricks">
-</a>
-</td>
-<td valign="top" style="border: none; padding: 12px 0; text-align: left;">
-<span style="color: #f0f6fc; font-size: 14.5px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600;">Generative AI Fundamentals</span><br>
-<span style="color: #8b949e; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.4;">Accreditation from Databricks Academy covering core LLM architectures, generative modeling, and applications.</span>
-</td>
-</tr>
-<!-- Aptech Learning -->
-<tr>
-<td valign="top" style="border: none; padding: 12px 0; width: 60px; text-align: left;">
-<a href="https://www.aptech-education.com/" target="_blank">
-<img src="https://img.shields.io/badge/-0d0d11?style=flat-square&logo=python&logoColor=white" height="28" alt="Python">
-</a>
-</td>
-<td valign="top" style="border: none; padding: 12px 0; text-align: left;">
-<span style="color: #f0f6fc; font-size: 14.5px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-weight: 600;">Web Development using Python</span><br>
-<span style="color: #8b949e; font-size: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.4;">Professional training and certification program from Aptech Learning.</span>
-</td>
-</tr>
-</table>
-
-
-
-
-<a id="metrics"></a>
-<hr style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
-
-<!-- SECTION 6: METRICS DASHBOARD PANEL -->
-<h3 style="color: #f0f6fc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif; font-size: 24px; font-weight: 800; margin: 0 0 6px 0; letter-spacing: -0.5px; text-align: left;">Metrics &amp; Live Contributions</h3>
-<br>
-
-<div align="center">
-<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; border: none;">
-<tr>
-<td width="50%" align="center" style="border: none; padding-right: 5px;">
-<img src="stats.svg?v=1" alt="Hardik's GitHub Stats" style="width: 100%; max-width: 450px;">
-</td>
-<td width="50%" align="center" style="border: none; padding-left: 5px;">
-<img src="langs.svg?v=1" alt="Hardik's Top Languages" style="width: 100%; max-width: 450px;">
-</td>
-</tr>
-</table>
-<br>
-
-<!-- Snake game section -->
-<h5 style="color: #8b949e; font-family: monospace; font-size: 12px;">&lt; Snake Game Contributions /&gt;</h5>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hardikkhyal/hardikkhyal/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hardikkhyal/hardikkhyal/output/github-snake.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/hardikkhyal/hardikkhyal/output/github-snake.svg" style="width: 100%;" />
-</picture>
-</div>
-
 <hr style="border: 0; border-top: 1px solid #2a2a2a; margin: 35px 0;">
 
 <!-- SECTION 7: RANDOM DEV QUOTE -->
@@ -230,12 +121,7 @@ Currently focused on React, Node.js, Docker, AWS, UI/UX Design, and Open Source 
 <a href="https://pinterest.com/Anime_art_fusion" target="_blank"><img src="https://img.shields.io/badge/Pinterest-0d0d11?style=flat-square&logo=pinterest&logoColor=white" height="28" alt="Pinterest"></a>&nbsp;&nbsp;
 <a href="mailto:khyalhardik@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d0d11?style=flat-square&logo=gmail&logoColor=white" height="28" alt="Email"></a>
 </td>
-<!-- Visitor Count Badge -->
-<td align="right" style="border: none;">
-  <a href="https://visitcount.itsvg.in" target="_blank">
-    <img src="https://visitcount.itsvg.in/api?id=Hardikkhyal&icon=0&color=0" alt="Visitor Count">
-  </a>
-</td>
+
 </tr>
 </table>
 
